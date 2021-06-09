@@ -6,7 +6,7 @@
 
 ## Installation
 
-Xcode 11 and iOS 13 is required.
+Xcode 13 and iOS 15 is required.
 
 ### Swift Package Manager
 

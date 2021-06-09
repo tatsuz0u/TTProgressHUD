@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import SwiftUIVisualEffects
 
 public enum TTProgressHUDType {
     case loading
@@ -99,8 +98,6 @@ private struct LabelView: View {
             }
         }
         .multilineTextAlignment(.center)
-        .vibrancyEffect()
-        .vibrancyEffectStyle(.fill)
     }
 }
 
@@ -148,8 +145,7 @@ public struct TTProgressHUD: View {
 
                     ZStack {
                         Color.clear
-                            .blurEffect()
-                            .blurEffectStyle(.systemUltraThinMaterial)
+                            .background(.ultraThinMaterial)
 
                         VStack(spacing: 20) {
                             if config.type == .loading {
