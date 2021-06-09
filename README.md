@@ -2,7 +2,6 @@
 
 `TTProgressHUD` is a light weight HUD written in SwiftUI meant to display the progress of an ongoing task on iOS. `TTProgressHUD` (left) was designed to look as similar as possible to the Apple HUD (example from Podcast.app, right).
 
-<img src="https://raw.githubusercontent.com/honkmaster/TTProgressHUD/master/Sample.jpg" width="500">
 
 ## Installation
 

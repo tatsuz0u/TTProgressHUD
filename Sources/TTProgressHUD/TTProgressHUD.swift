@@ -101,6 +101,7 @@ private struct LabelView: View {
     }
 }
 
+@available(iOS 15.0, *)
 public struct TTProgressHUD: View {
     @Binding var isVisible: Bool
     var config: TTProgressHUDConfig
