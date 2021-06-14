@@ -66,7 +66,7 @@ public struct TTProgressHUDConfig: Hashable {
         shouldAutoHide: Bool            = false,
         allowsTapToHide: Bool           = false,
         autoHideInterval: TimeInterval  = 10.0,
-        hapticsEnabled: Bool            = true
+        hapticsEnabled: Bool            = false
     ) {
         self.type = type
 
