@@ -180,7 +180,7 @@ public struct TTProgressHUD: View {
                     .shadow(color: config.shadowColor, radius: config.shadowRadius)
                 }
             }
-            .animation(.spring())
+//            .animation(.spring())
             .onTapGesture {
                 if config.allowsTapToHide {
                     withAnimation {
